@@ -19,7 +19,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 nav {
@@ -42,13 +41,16 @@ nav a {
     text-underline-offset: 5px;
 }
 
+/* Hero Section with background image */
 #hero-section {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80);
-    min-width: 500px;
+    min-width: 100%;
     height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .h2-hero {
@@ -57,8 +59,7 @@ nav a {
    text-align: center;
    font-size: 30px;
    width: 200px;
-   background-repeat: no-repeat;
-   background-position: center;
+   
 }
 
 main {
@@ -66,6 +67,12 @@ main {
     color: rgb(73, 73, 107)
 }
 
+hr {
+    border:  2px solid rgb(73, 73, 107)
+
+}
+
+/* About Me Section */
 .about-me {
    padding: 20px 0 20px 0;
    display: flex;
@@ -79,6 +86,7 @@ main {
     
 }
 
+/* Work Section of Portfolio */
 .work {
     padding: 20px 0 20px 0;
     display: flex;
@@ -91,6 +99,12 @@ main {
     font-size: 40px;
      
  }
+
+.work-card img {
+    width: 98%;
+}
+
+/* Contact Me Section */
 
  .contact-me {
     padding: 20px 0 20px 0;
@@ -112,6 +126,51 @@ main {
     nav ul {
         justify-content: center;
     }
+
+    #lrg-card img {
+        width: 700px;
+    }
+
+    .work-card img {
+        width: 320px;
+    }
+    .card {
+        min-width: 700px;
+        display: flex;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .work-card {
+        margin: 20px;
+        position: relative;
+        background-color: white;
+        padding: 10px;
+    }
+
+    .work-card div {
+        color: white;
+        background-color: black;
+        padding: 5px;
+        position: absolute;
+        bottom: 10%;
+    }
+
+    .contact-me ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-me li {
+        margin-top: 20px;
+        padding: 10px;
+    }
+    
  }
 
 /* Media query for Desktop view */
@@ -131,6 +190,7 @@ main {
         flex-wrap: wrap;
     }
 
+    /* About Me Section */
     .about-me {
         width: 1000px;
         margin: 0 auto;
@@ -152,7 +212,7 @@ main {
     .about-me p {
         padding-top: 20px;
     }
-
+ /* Work Section */
     .work {
         margin: 0 auto;
         width: 1000px;
@@ -161,7 +221,7 @@ main {
     }
 
     .card {
-        min-width: 1000px;
+        min-width: 800px;
         display: flex;
         padding: 10px;
         display: flex;
@@ -178,10 +238,10 @@ main {
         
     }
     #lrg-card img {
-        width: 500px;
+        width: 800px;
     }
     .work-card img {
-        width: 300px;
+        width: 360px;
     }
 
     .work p {
@@ -190,18 +250,27 @@ main {
 
     .work h3 {
         margin-right: 20px;
+        
     }
 
+    /* Contact Me Section */
     .contact-me {
+        margin: 0 auto;
+        width: 1000px;
         flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
     }
 
     .contact-me h3 {
         margin-right: 20px;
+        
     }
     .contact-me ul {
         list-style-type: none;
         display: flex;
+        justify-content: space-between;
+        flex-direction: row;
     }
 
     .contact-me li {
