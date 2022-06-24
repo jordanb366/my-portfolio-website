@@ -133,6 +133,8 @@ main {
     padding: 10px;
 }
 
+
+
 /* Styles the work card information with position abosulute so that information and title of project can go on the card instead of below */
 .work-card-information {
     color: rgb(73, 73, 107);
@@ -306,6 +308,10 @@ main {
         padding: 0;
         width: 700px;
         
+    }
+
+    .work-card img:hover {
+        opacity: 0.2;
     }
 
     /* Work Card images - sets the width*/
