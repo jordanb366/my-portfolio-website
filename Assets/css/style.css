@@ -48,7 +48,7 @@ nav a {
     
 }
 
-/* Hero Section with background image -- image from unsplash.com */
+/* Hero Section with background image - image from unsplash.com */
 #hero-section {
     display: flex;
     justify-content: center;
@@ -87,6 +87,7 @@ main {
 
 /* Container for the each sections title or h3 class */
 .section-title {
+    color:rgb(36, 34, 34);
     padding: 10px 0 10px 0;
     font-size: 40px; 
 }
@@ -262,7 +263,6 @@ main {
     }
     /* Title for each section heading - helps evenly space out the heading on the left */
     .section-title {
-        color:rgb(36, 34, 34);
         width: 150px;
         text-align: right;
         margin-right: 20px;
