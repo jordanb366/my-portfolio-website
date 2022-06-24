@@ -44,7 +44,7 @@ nav a {
     text-decoration: none;
     color:  white;
     padding: 15px;
-    font-size: 30px;
+    font-size: 25px;
     
 }
 
@@ -89,7 +89,7 @@ main {
 .section-title {
     color:rgb(36, 34, 34);
     padding: 10px 0 10px 0;
-    font-size: 40px; 
+    font-size: 30px; 
 }
 /* Adds flex box to work-section, about-me-section, and the contact-me-section */
 .work-section,
@@ -118,6 +118,10 @@ main {
 .about-me-description p,
 .about-me-description h4 {
     padding-top: 20px;
+ }
+
+ .about-me-description h4 {
+    font-size: 25px;
  }
 
 /* === Work Section of Portfolio === */
@@ -261,8 +265,13 @@ main {
     nav ul {
         flex-wrap: wrap;
     }
+
+    nav a {
+        font-size: 30px;
+    }
     /* Title for each section heading - helps evenly space out the heading on the left */
     .section-title {
+        font-size: 35px;
         width: 150px;
         text-align: right;
         margin-right: 20px;
@@ -289,6 +298,7 @@ main {
         width: 300px;
     }
     
+  
  /* Work Section */
 
 /* Sub container for work section that contains the cards */
