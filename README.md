@@ -7,12 +7,15 @@ This is a portfolio webpage project, for now the projects showcased are placehol
 # Screenshot
 
 Mobile preview
-![Mobile screenshot](./Assets/images/Screenshot1.png)
+
+![Mobile screenshot](./Assets/images/Screenshot2.png)
 
 Tablet preview
-![Tablet screenshot](./Assets/images/Screenshot1.png)
+
+![Tablet screenshot](./Assets/images/Screenshot3.png)
 
 Desktop preview
+
 ![Desktop screenshot](./Assets/images/Screenshot1.png)
 
 
