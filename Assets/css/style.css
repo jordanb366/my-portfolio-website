@@ -1,372 +1,368 @@
 /* Website is styled using a mobile first approach then scales, is responsive to tablet, and desktop screens */
 /* Set page to margin 0, padding 0 and box-sizing to border-box */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Sets background color */
 body {
-    background-color: rgb(189, 198, 206);
+  background-color: rgb(189, 198, 206);
 }
 
 /* Main header class, changesbackground color */
 .main-header {
-    background-color: rgb(56, 56, 56);
+  background-color: rgb(56, 56, 56);
 }
 
 /* The h1-header class for the h1 styles it */
 .h1-header {
-    background-color: rgb(122, 243, 138);
-    color: rgb(56, 56, 56);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 35px;
+  background-color: rgb(122, 243, 138);
+  color: rgb(56, 56, 56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
 }
 
 /* Gives the navigation container 20px of pappding */
 nav {
-    padding: 20px;
+  padding: 20px;
 }
 
 /* Styles the unordered list in the navigation */
 nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /* Styles the navigation links */
 nav a {
-    text-decoration: none;
-    color:  white;
-    padding: 15px;
-    font-size: 22px;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: 22px;
 }
 
 /* Hero Section with background image - image from unsplash.com */
 #hero-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aliceblue;
-    /* Image from unsplash - https://unsplash.com/photos/oafaSAQPfww */
-    background-image: url('../images/background-image.jpg');
-    min-width: 100%;
-    height: 300px;
-    background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  /* Image from unsplash - https://unsplash.com/photos/oafaSAQPfww */
+  background-image: url("../images/background-image.jpg");
+  min-width: 100%;
+  height: 300px;
+  background-position: center;
 }
 
 /* Styles the text on the hero section */
 .h2-hero {
-    margin: 0 auto;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: rgb(122, 243, 138);
-    color: rgb(73, 73, 107) ;
-    text-align: center;
-    font-size: 30px;
-    width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(122, 243, 138);
+  color: rgb(73, 73, 107);
+  text-align: center;
+  font-size: 30px;
+  width: 400px;
 }
 
 /* Styles the main content element */
 main {
-    margin: 10px;
-    color: aliceblue;
-    font-size: larger;
+  margin: 10px;
+  color: aliceblue;
+  font-size: larger;
 }
 
 /* Line under each sections heading - shows as a column line on desktop view */
 .div-line {
-    border:  2px solid rgb(36, 34, 34);
+  border: 2px solid rgb(36, 34, 34);
 }
 
 /* Container for the each sections title or h3 class */
 .section-title {
-    color:rgb(36, 34, 34);
-    padding: 10px 0 10px 0;
-    font-size: 30px; 
+  color: rgb(36, 34, 34);
+  padding: 10px 0 10px 0;
+  font-size: 30px;
 }
 /* Adds flex box to work-section, about-me-section, and the contact-me-section */
 .work-section,
 .about-me-section,
 .contact-me-section {
-    padding: 20px 0 20px 0;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
- }
-
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
 
 /* ==== About Me Section ===== */
 
-
 /* Class for profile picture, styles it */
 #profile-picture {
-    padding: 20px;
-    width: 200px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
+  padding: 20px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 /* About Me Description section */
 .about-me-description p,
 .about-me-description h4 {
-    padding-top: 20px;
- }
+  padding-top: 20px;
+}
 
- .about-me-description h4 {
-    font-size: 25px;
- }
+.about-me-description h4 {
+  font-size: 25px;
+}
+
+#skills h5 {
+  font-size: larger;
+  padding-bottom: 10px;
+}
+
+#skills {
+  margin-left: 20px;
+}
 
 /* === Work Section of Portfolio === */
 
 /* Styles the work cards - position relative so text from work card information can go on top of image instead of below the card */
- .work-card {
-    margin: 20px;
-    position: relative;
-    background-color:  rgb(122, 243, 138);;
-    padding: 10px;
+.work-card {
+  margin: 20px;
+  position: relative;
+  background-color: rgb(122, 243, 138);
+  padding: 10px;
 }
-
-
 
 /* Styles the work card information with position abosulute so that information and title of project can go on the card instead of below */
 .work-card-information {
-    color: rgb(73, 73, 107);
-    background-color: rgb(122, 243, 138);
-    padding: 5px;
-    position: absolute;
-    bottom: 10%;
+  color: rgb(73, 73, 107);
+  background-color: rgb(122, 243, 138);
+  padding: 5px;
+  position: absolute;
+  bottom: 10%;
 }
 
 /* Changes the image in the .work-card container to 100% width */
 .work-card img {
-    width: 100%;
+  width: 100%;
 }
 
 /* Contact Me Section */
- 
+
 /* Styles the contact me links sections below */
- .contact-me-links  {
-    
-    text-underline-offset: 5px;
-    font-size: 20px;
-    font-weight: bolder;
-    color: rgb(73, 73, 107)   
+.contact-me-links {
+  text-underline-offset: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(73, 73, 107);
 }
 /* Remove bullet point from the unordered list */
 .contact-me-links ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /* Styles the contact me links */
-.contact-me-links a  {
-    text-decoration: none;
-    color: rgb(73, 73, 107)   
+.contact-me-links a {
+  text-decoration: none;
+  color: rgb(73, 73, 107);
 }
 
 /* Gives padding to the list items */
 .contact-me-links li {
-    padding: 15px;
+  padding: 15px;
 }
 
- /* Media queries for Responsiveness, Tablet and Desktop Display, Website is Mobile First Approach */
+/* Media queries for Responsiveness, Tablet and Desktop Display, Website is Mobile First Approach */
 
- /* Media query for Tablet view  */
- @media screen and (min-width: 768px) {
-    /* Centers the Unordered list */
-    nav ul {
-        justify-content: center;
-    }
+/* Media query for Tablet view  */
+@media screen and (min-width: 768px) {
+  /* Centers the Unordered list */
+  nav ul {
+    justify-content: center;
+  }
 
-    /* Centers any content in the hero section */
-    #hero-section {
-        justify-content: center;
-        align-items: flex-end;
-    }
-    
-    /* Adds 20px of margin to the bottom */
-    .h2-hero {
-        margin-bottom: 20px;
-    }
-    
-    /* Styles the profile picture on the tablet view */
-    #profile-picture {
-        width: 200px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: flex-start;
-    }
+  /* Centers any content in the hero section */
+  #hero-section {
+    justify-content: center;
+    align-items: flex-end;
+  }
 
-    /* Changes size the large card image */
-    #lrg-card img {
-        width: 630px;
-    }
+  /* Adds 20px of margin to the bottom */
+  .h2-hero {
+    margin-bottom: 20px;
+  }
 
-    /* Changes size of the work card image */
-    .work-card img {
-        width: 280px;
-    }
+  /* Styles the profile picture on the tablet view */
+  #profile-picture {
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
 
-    /* Add multiple styles to the card container class, containing the the work cards */
-    .card-container {
-        margin: 0 auto;
-        width: 700px;
-        display: flex;
-        padding: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        align-content: center;
-    }
+  /* Changes size the large card image */
+  #lrg-card img {
+    width: 630px;
+  }
 
-    /* Styles the h4 in the work card informtion container */
-    .work-card-information h4 {
-        padding: 5px 0 5px 0;
-        font-size: 25px;
-    }
+  /* Changes size of the work card image */
+  .work-card img {
+    width: 280px;
+  }
 
-    /* Adds flexbox to the ul element in the contact me links container */
-    .contact-me-links ul {
-        display: flex;
-        justify-content: space-between;
-    }
+  /* Add multiple styles to the card container class, containing the the work cards */
+  .card-container {
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
 
-    /* Adds margin to the top and padding around the list items */
-    .contact-me-links li {
-        margin-top: 20px;
-        padding: 10px;
-    }
- }
+  /* Styles the h4 in the work card informtion container */
+  .work-card-information h4 {
+    padding: 5px 0 5px 0;
+    font-size: 25px;
+  }
+
+  /* Adds flexbox to the ul element in the contact me links container */
+  .contact-me-links ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Adds margin to the top and padding around the list items */
+  .contact-me-links li {
+    margin-top: 20px;
+    padding: 10px;
+  }
+}
 
 /* Media query for Desktop view */
- @media screen and (min-width: 1024px) {
-    /* Styles the list .main header giving it a flex and space between - centers everything vertically so they appear on the same line */
-    .main-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 100px;
-    }
+@media screen and (min-width: 1024px) {
+  /* Styles the list .main header giving it a flex and space between - centers everything vertically so they appear on the same line */
+  .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+  }
 
-    /* Styles the h1 header - justifying content left and giving it a width */
-    .h1-header {
-        justify-content: flex-start;
-        padding: 10px 0px 10px 30px;
-        width: 300px;
-    }
+  /* Styles the h1 header - justifying content left and giving it a width */
+  .h1-header {
+    justify-content: flex-start;
+    padding: 10px 0px 10px 30px;
+    width: 300px;
+  }
 
-    /* Wraps the unorder list */
-    nav ul {
-        flex-wrap: wrap;
-    }
+  /* Wraps the unorder list */
+  nav ul {
+    flex-wrap: wrap;
+  }
 
-    nav a {
-        font-size: 30px;
-    }
-    /* Title for each section heading - helps evenly space out the heading on the left */
-    .section-title {
-        font-size: 35px;
-        width: 150px;
-        text-align: right;
-        margin-right: 20px;
-     }
+  nav a {
+    font-size: 30px;
+  }
+  /* Title for each section heading - helps evenly space out the heading on the left */
+  .section-title {
+    font-size: 35px;
+    width: 150px;
+    text-align: right;
+    margin-right: 20px;
+  }
 
-   /* Styles for all 3 sections -- 0 auto margin centers the containers */
-    .about-me-section,
-    .work-section,
-    .contact-me-section {
-        margin: 0 auto;
-        width: 1000px;
-        flex-direction: row;
-        justify-content: center;
-    }
+  /* Styles for all 3 sections -- 0 auto margin centers the containers */
+  .about-me-section,
+  .work-section,
+  .contact-me-section {
+    margin: 0 auto;
+    width: 1000px;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-     /* About Me Section */
-    /* Adds left margina and width to the about me description container */
-    .about-me-description {
-        margin-left: 30px;
-        width: 700px;
-    }
+  /* About Me Section */
+  /* Adds left margina and width to the about me description container */
+  .about-me-description {
+    margin-left: 30px;
+    width: 700px;
+  }
 
-    #profile-picture {
-        width: 300px;
-    }
-    
-  
- /* Work Section */
+  #profile-picture {
+    width: 300px;
+  }
 
-/* Sub container for work section that contains the cards */
-    .card-container {
-        margin: 0 0 0 30px;
-        padding: 0;
-        width: 700px;
-        
-    }
+  /* Work Section */
 
-    .work-card img:hover {
-        opacity: 0.2;
-    }
+  /* Sub container for work section that contains the cards */
+  .card-container {
+    margin: 0 0 0 30px;
+    padding: 0;
+    width: 700px;
+  }
 
-    /* Work Card images - sets the width*/
-    #lrg-card img {
-        width: 650px;
-       
-    }
-    .work-card img {
-        width: 290px;
-    }
+  .work-card img:hover {
+    opacity: 0.2;
+  }
 
-    /* Contact Me Section */
-    .contact-me-links {
-        margin-left: 30px;
-        width: 700px;
-        justify-content: space-between;    
-    }
- }
+  /* Work Card images - sets the width*/
+  #lrg-card img {
+    width: 650px;
+  }
+  .work-card img {
+    width: 290px;
+  }
 
- /* Media query for Desktop view large screen*/
- @media screen and (min-width: 1280px) {
+  /* Contact Me Section */
+  .contact-me-links {
+    margin-left: 30px;
+    width: 700px;
+    justify-content: space-between;
+  }
+}
 
-    /* Sets the width on each sections container to 1200px for large desktop screens */
-    .about-me-section,
-    .work-section,
-    .contact-me-section {
-        width: 1200px;
-    }
+/* Media query for Desktop view large screen*/
+@media screen and (min-width: 1280px) {
+  /* Sets the width on each sections container to 1200px for large desktop screens */
+  .about-me-section,
+  .work-section,
+  .contact-me-section {
+    width: 1200px;
+  }
 
-    /* Sets the width for each sections sub containers for the content to the right of the headings */
-    .about-me-description,
-    .card-container,
-    .contact-me-links {
-        width: 900px;
-    }
+  /* Sets the width for each sections sub containers for the content to the right of the headings */
+  .about-me-description,
+  .card-container,
+  .contact-me-links {
+    width: 900px;
+  }
 
-    /* Work Card images, changes width for larger desktop screens */
-    #lrg-card img {
-        width: 840px;
-       
-    }
-    .work-card img {
-        width: 380px;
-    }
- }
+  /* Work Card images, changes width for larger desktop screens */
+  #lrg-card img {
+    width: 840px;
+  }
+  .work-card img {
+    width: 380px;
+  }
+}
 
- /* Media query for Desktop view larger screen*/
- @media screen and (min-width: 1920px) {
-
-    /* Sets the width on each sections container to 1200px for large desktop screens */
-    .about-me-section,
-    .work-section,
-    .contact-me-section {
-        width: 1840px;
-    }
- }
-
-
+/* Media query for Desktop view larger screen*/
+@media screen and (min-width: 1920px) {
+  /* Sets the width on each sections container to 1200px for large desktop screens */
+  .about-me-section,
+  .work-section,
+  .contact-me-section {
+    width: 1840px;
+  }
+}
