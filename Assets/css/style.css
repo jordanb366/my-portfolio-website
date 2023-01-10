@@ -235,7 +235,7 @@ main {
   }
 
   .work-card-information {
-    width: 300px;
+    width: 250px;
   }
 
   /* Adds flexbox to the ul element in the contact me links container */
@@ -356,6 +356,10 @@ main {
   }
   .work-card img {
     width: 380px;
+  }
+
+  .work-card-information {
+    width: 350px;
   }
 }
 
